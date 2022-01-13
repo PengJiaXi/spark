@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿# NXROBO Spark
 <img src="http://wiki.ros.org/Robots/Spark?action=AttachFile&do=get&target=spark1.png" width="300">
 - 相关产品了解更多，请使用微信扫描以下二维码：
@@ -8,6 +9,8 @@
 - This is a tutorial for beginners, and Detailed version is [here](https://github.com/NXROBO/spark/blob/master/README_Detailed.md) . 
 - 本说明为初学者体验版，[这里](https://github.com/NXROBO/spark/blob/master/README_Detailed.md)有详细说明的版本。
 =======
+=======
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 # NXROBO Spark
 - 
   <img src="https://raw.githubusercontent.com/NXROBO/spark/master/doc/spark.jpg" width="300">
@@ -19,6 +22,9 @@
   <img src="https://raw.githubusercontent.com/NXROBO/spark/master/doc/ewm.png" width="300">
 
   
+<<<<<<< HEAD
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
+=======
 >>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 
 ## 列表 Table of Contents
@@ -26,14 +32,20 @@
 * [功能包说明packages-overview](#功能包说明packages-overview)
 * [使用usage](#使用usage)
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [镜像Mirror](#镜像Mirror)
 * [视频展示Video](#视频展示Video)
 
 =======
+=======
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 * [视频展示Video](#视频展示Video)
 
 
 
+<<<<<<< HEAD
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
+=======
 >>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 ## 功能包说明packages-overview
 
@@ -41,6 +53,11 @@
 * ***doc*** : 软硬件依赖包。
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 =======
 
 
@@ -50,8 +67,13 @@
 ### 系统要求 Prequirement
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 * System:	Ubuntu 14.04+
 * ROS Version:	indigo or kinetic(Desktop-Full Install) 
+=======
+* System:  Ubuntu 16.04+
+* ROS Version:  kinetic (Desktop-Full Install) 
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 =======
 * System:  Ubuntu 16.04+
 * ROS Version:  kinetic (Desktop-Full Install) 
@@ -61,22 +83,29 @@
 
 * 下载工作空间 Download the workspace:
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```yaml
 git clone https://github.com/NXROBO/spark.git
 ```
 * 安装依赖库 Install libraries and dependencies:
 ```yaml
 =======
+=======
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 ```bash
 git clone https://github.com/NXROBO/spark.git
 ```
 * 安装依赖库 Install libraries and dependencies:
 ```bash
+<<<<<<< HEAD
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
+=======
 >>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 cd spark
 ./onekey.sh
 ```
 * 根据提示选择103 Choose NO.103
+<<<<<<< HEAD
 <<<<<<< HEAD
 ```yaml
 103
@@ -95,6 +124,8 @@ catkin_make
 We also provide a downloadable mirror whose all environments have been configured.
 *  Download address: [spark_mirror](http://pan.baidu.com/s/1i4ZlH4p)
 =======
+=======
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 ```bash
 103
 ```
@@ -160,6 +191,9 @@ SLAM的算法，其对应值如下表。The algorithm of the SLAM, and the corre
 | kartoSLAM                  | “karto”                |
 
 
+<<<<<<< HEAD
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
+=======
 >>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 
 ## 视频展示Video
@@ -169,17 +203,23 @@ SLAM的算法，其对应值如下表。The algorithm of the SLAM, and the corre
 <a href="https://www.youtube.com/embed/UrD2AEQ3VkI" target="_blank"><img src="http://img.youtube.com/vi/UrD2AEQ3VkI/0.jpg" 
 alt="follow-person" width="240" height="180" border="10" /></a>
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```yaml
 cd spark
 source devel/setup.bash
 roslaunch spark_follower bringup.launch
 =======
+=======
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 
 ```bash
 cd spark
 source devel/setup.bash
 
 roslaunch spark_follower bringup.launch camera_type_tel:=CAMERATYPE
+<<<<<<< HEAD
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
+=======
 >>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 ```
 
@@ -188,17 +228,23 @@ roslaunch spark_follower bringup.launch camera_type_tel:=CAMERATYPE
 <a href="https://www.youtube.com/embed/Yt9Sld-EX0s" target="_blank"><img src="http://img.youtube.com/vi/Yt9Sld-EX0s/0.jpg" 
 alt="follow-person" width="240" height="180" border="10" /></a>
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```yaml
 cd spark
 source devel/setup.bash
 roslaunch spark_slam 2d_slam_teleop.launch slam_methods_tel:=gmapping
 =======
+=======
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 
 ```bash
 cd spark
 source devel/setup.bash
 
 roslaunch spark_slam 2d_slam_teleop.launch slam_methods_tel:=SLAMTYPE camera_type_tel:=CAMERATYPE lidar_type_tel:=LIDARTYPE
+<<<<<<< HEAD
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
+=======
 >>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 ```
 
@@ -207,17 +253,23 @@ roslaunch spark_slam 2d_slam_teleop.launch slam_methods_tel:=SLAMTYPE camera_typ
 <a href="https://www.youtube.com/embed/3RP11sZKfJg" target="_blank"><img src="http://img.youtube.com/vi/3RP11sZKfJg/0.jpg" 
 alt="follow-person" width="240" height="180" border="10" /></a>
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```yaml
 cd spark
 source devel/setup.bash
 roslaunch spark_navigation amcl_demo_lidar_rviz.launch
 =======
+=======
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 
 ```bash
 cd spark
 source devel/setup.bash
 
 roslaunch spark_navigation amcl_demo_lidar_rviz.launch camera_type_tel:=CAMERATYPE lidar_type_tel:=LIDARTYPE
+<<<<<<< HEAD
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
+=======
 >>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 ```
 
@@ -226,16 +278,22 @@ roslaunch spark_navigation amcl_demo_lidar_rviz.launch camera_type_tel:=CAMERATY
 <a href="https://www.youtube.com/embed/K5wvlWb-2uQ" target="_blank"><img src="http://img.youtube.com/vi/K5wvlWb-2uQ/0.jpg" 
 alt="follow-person" width="240" height="180" border="10" /></a>
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```yaml
 cd spark
 source devel/setup.bash
 roslaunch spark_rtabmap spark_rtabmap_teleop.launch 
 =======
+=======
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 ```bash
 cd spark
 source devel/setup.bash
 
 roslaunch spark_slam depth_slam_teleop.launch slam_methods_tel:=SLAMTYPE camera_type_tel:=CAMERATYPE depthtolaser:=depthtolaser
+<<<<<<< HEAD
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
+=======
 >>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 ```
 
@@ -243,6 +301,7 @@ roslaunch spark_slam depth_slam_teleop.launch slam_methods_tel:=SLAMTYPE camera_
 
 <a href="https://www.youtube.com/embed/aNPy6GYcdu0" target="_blank"><img src="http://img.youtube.com/vi/aNPy6GYcdu0/0.jpg" 
 alt="follow-person" width="240" height="180" border="10" /></a>
+<<<<<<< HEAD
 <<<<<<< HEAD
 ```yaml
 cd spark
@@ -252,6 +311,8 @@ roslaunch spark_carry_object spark_carry_object_only_cv3.launch
 
 
 =======
+=======
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
 
 ```bash
 cd spark
@@ -259,4 +320,7 @@ source devel/setup.bash
 
 roslaunch spark_carry_object spark_carry_object_only_cv3.launch camera_type_tel:=CAMERATYPE lidar_type_tel:=LIDARTYPE
 ```
+<<<<<<< HEAD
+>>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
+=======
 >>>>>>> c7778e45d4efaba747b8d1e54ffcc53a2e7432e5
